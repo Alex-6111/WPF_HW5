@@ -1,0 +1,29 @@
+﻿<Window x:Class="WPF_HW5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_HW5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920" WindowStartupLocation="CenterScreen">
+    <Grid Background="#454545">
+        <Image Source="woman.png" Width="748" Height="634" Margin="0 0 0 0"/>
+        <TextBlock Text="Sign in" Width="74" Height="28" Foreground="#FFFFFF" FontSize="17" FontWeight="Regular" Margin="900 0 0 700"/>
+        <TextBlock Text="Register" Width="74" Height="26" Foreground="#FFFFFF" FontSize="17" FontWeight="Regular" Margin="1200 0 0 700"/>
+        <Image Source="Rectangle2.png" Width="400" Height="60" Margin="1100 0 0 0" />
+        <Image Source="Rectangle2.png" Width="400" Height="60" Margin="1100 200 0 0" />
+        <TextBlock Text="Enter Email" Width="104" Height="27" FontSize="18" FontWeight="Regular" Foreground="#FFFFFF" Margin="1000 0 0 0" />
+        <TextBlock Text="••••••••" Width="104" Height="27" FontSize="18" FontWeight="Regular" Foreground="#FFFFFF" Margin="1000 200 0 0" />
+        <TextBlock Text="Recover Password?" Width="151" Height="27" FontSize="18" FontWeight="Regular" Foreground="#C7C7C7" Margin="1350 300 0 0" />
+        <TextBlock Text = "Sign In" Width="400" Height="77"  TextAlignment="Center"  FontSize="29" FontWeight="Regular" FontFamily="Abhaya Libre ExtraBold" Background = "#4461F2" Foreground="#FFFFFF" Margin="1099 450 0 0"/>
+        <TextBlock Text="Sign In to" Width="307" Height="100" FontFamily="Barlow" FontSize="59" Foreground="#FFFFFF" FontWeight="SemiBold" Margin="0 0 1300 0" />
+        <TextBlock Text="Recharge Direct" Height="100" Width="500" FontFamily="Barlow" FontSize="59" Foreground="#FFFFFF" FontWeight="SemiBold" Margin="0 200 1100 0" />
+        <TextBlock Text="if you don’t an account" Width="293" Height="33" FontFamily="Barlow" FontWeight="Light" FontSize="23" Foreground="#FFFFFF" Margin="0 400 1300 0" />
+        <TextBlock Text="you can" Width="80" Height="33" FontFamily="Barlow" FontWeight="Light" FontSize="23" Foreground="#FFFFFF" Margin="0 500 1510 0" />
+        <TextBlock Text=" Register here!" Width="200" Height="33" FontFamily="Barlow" FontWeight="Light" FontSize="23" Foreground="#4461F2" Margin="0 500 1220 0" />
+        <Image Source="Apple.png" Width="117" Height="60" Margin="1350 700 0 0" />
+        <Image Source="Shape.png" Width="40" Height="40" Margin="1100 690 0 0" />
+        <Image Source="Wrapper.png" Width="40" Height="40" Margin="860 690 0 0" />
+
+    </Grid>
+</Window>
